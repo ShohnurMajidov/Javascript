@@ -3,23 +3,23 @@
 // // prifex (old) and postfix (orqa)
 
 
-// let a = 1, b = 1;
+let a = 1, b = 1;
 
-// let c = ++a;      
-// let d = b;
-// let e = d++;
-// let p = d++;
-// let g = d++;
-// let m = d++;
-// let x = d++;
-// let z = d++;
-// // let e = ++d;
-// // let p = ++d;
-// // let g = ++d;
-// // let m = ++d;
-// // let x = ++d;
-// // let z = ++d;
-// let y = d;
+let c = ++a;      
+let d = b;
+let e = d++;
+let p = d++;
+let g = d++;
+let m = d++;
+let x = d++;
+let z = d++;
+// let e = ++d;
+// let p = ++d;
+// let g = ++d;
+// let m = ++d;
+// let x = ++d;
+// let z = ++d;
+let y = d;
 
 // console.log(a); // a = 2   
 // console.log(b); // b = 1
@@ -71,52 +71,52 @@
 
 //The unary + operator can be used to convert a variable to a number:
 
-// console.log( typeof("" + 1 + 0));   //  string  
+console.log( typeof("" + 1 + 0));   //  string  
 
-// console.log("" + 1 + 0); // 10
+console.log("" + 1 + 0); // 10
 
-// console.log( typeof("" - 1 + 0));   // number
-// console.log("" - 1 + 0);   // -1
+console.log( typeof("" - 1 + 0));   // number
+console.log("" - 1 + 0);   // -1
 
-// console.log( true + false);  // 1
-// console.log(typeof( true + false)); // number
-
-
-// console.log(typeof(6 / "3")); // number
-// console.log(6 / "3");  //2
-
-// console.log( "2" * "3");   // 6
-// console.log(typeof("2" * "3")); // number
-
-// console.log( 4 + 5 +"px"); //9px
-// console.log( typeof(4 + 5 +"px")); // string
-
-// console.log( "$" + 4 + 5); // $45
-// console.log(typeof( "$" + 4 + 5)); //string 
-
-// console.log( "4" - 2); // 2
-// console.log(typeof( "4" - 2)); // number
-
-// console.log( "4px" - 2); // NaN
-// console.log(typeof("4px" - 2)); // number
-
-// console.log("-9" + 5); // -95
-// console.log(typeof( "-9" + 5)); // string 
-
-// console.log("-9" - 5); // -14
-// console.log(typeof( "-9" - 5)); // number 
+console.log( true + false);  // 1
+console.log(typeof( true + false)); // number
 
 
-// console.log( null + 1);  // 1
-// console.log( typeof(null + 1)); // number
+console.log(typeof(6 / "3")); // number
+console.log(6 / "3");  //2
+
+console.log( "2" * "3");   // 6
+console.log(typeof("2" * "3")); // number
+
+console.log( 4 + 5 +"px"); //9px
+console.log( typeof(4 + 5 +"px")); // string
+
+console.log( "$" + 4 + 5); // $45
+console.log(typeof( "$" + 4 + 5)); //string 
+
+console.log( "4" - 2); // 2
+console.log(typeof( "4" - 2)); // number
+
+console.log( "4px" - 2); // NaN
+console.log(typeof("4px" - 2)); // number
+
+console.log("-9" + 5); // -95
+console.log(typeof( "-9" + 5)); // string 
+
+console.log("-9" - 5); // -14
+console.log(typeof( "-9" - 5)); // number 
 
 
-// console.log( undefined + 1); // 1 NaN ????
-// console.log( typeof(undefined + 1)); // number
+console.log( null + 1);  // 1
+console.log( typeof(null + 1)); // number
 
 
-// console.log( "/t /n" - 2); // NaN
-// console.log( typeof("/t /n" - 2)); // number
+console.log( undefined + 1); // 1 NaN ????
+console.log( typeof(undefined + 1)); // number
+
+
+console.log( "/t /n" - 2); // NaN
+console.log( typeof("/t /n" - 2)); // number
 
 
 // -------------------------------------
@@ -130,15 +130,15 @@
 //For example, if we want to see which value is greater between 55 and 45, we can use the greater than (>) comparison operator like this (55 > 45). 
 //This will return true as 55 is greater than 45. In this article, we will see eight such comparison operators in JavaScript and discuss their behaviour with operands of different data types in detail.
 
-// console.log(5 > 4);   // true
-// console.log("apple" > "pineapple"); // false
-// console.log("2" > "12");  // true
-// console.log(undefined == null); //true
-// console.log(undefined === null); // false
-// console.log(null == "/n0/n");  //false
-// console.log(null == +"/n0/n"); //false
-// console.log(null == false); // false
-// console.log(null == 0); // false
+console.log(5 > 4);   // true
+console.log("apple" > "pineapple"); // false
+console.log("2" > "12");  // true
+console.log(undefined == null); //true
+console.log(undefined === null); // false
+console.log(null == "/n0/n");  //false
+console.log(null == +"/n0/n"); //false
+console.log(null == false); // false
+console.log(null == 0); // false
 
 
 
