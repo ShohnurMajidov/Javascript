@@ -7,25 +7,25 @@ let a = 1, b = 1;
 
 let c = ++a;      
 let d = b;
-let e = d++;
-let p = d++;
-let g = d++;
-let m = d++;
-let x = d++;
-let z = d++;
-// let e = ++d;
-// let p = ++d;
-// let g = ++d;
-// let m = ++d;
-// let x = ++d;
-// let z = ++d;
+// let e = d++;
+// let p = d++;
+// let g = d++;
+// let m = d++;
+// let x = d++;
+// let z = d++;
+let e = ++d;
+let p = ++d;
+let g = ++d;
+let m = ++d;
+let x = ++d;
+let z = ++d;
 let y = d;
 
 // console.log(a); // a = 2   
 // console.log(b); // b = 1
 // console.log(c); // c = 2
 
-// console.log(d); // d = 7
+console.log(d); // d = 7
 // console.log(e); // e = 1   
 // console.log(p); // p = 2  
 // console.log(g); // g = 3
@@ -111,7 +111,7 @@ console.log( null + 1);  // 1
 console.log( typeof(null + 1)); // number
 
 
-console.log( undefined + 1); // 1 NaN ????
+console.log( undefined + 1); // NaN
 console.log( typeof(undefined + 1)); // number
 
 
@@ -191,3 +191,5 @@ console.log(null == 0); // false
 // let b = a + true;
 
 // console.log( true + true ); => 2
+  
+
