@@ -47,11 +47,11 @@ console.log(d); // d = 7
 
 // Assinment (qo'shish) result
 
-// let a = 2;
+let k = 2;
 
-// let x = 1 + (a *= 2);
+let l = 1 + (a *= 2);
 
-// console.log(x); // x = 5
+console.log(x); // x = 5
 
 
 // Assignment operator assigns a value to its left operand based on the value of its right operand. 
