@@ -98,9 +98,9 @@ else {
 
 
 for(i=2;i<=10;i++){
-    console.log(`==================
+    console.log(`=================
 ${i}lik karra jadvali
-==================`);
+=================`);
    for(j=1; j<=10;j++){
      console.log(`${i}*${j}=${i*j}`);
    }
