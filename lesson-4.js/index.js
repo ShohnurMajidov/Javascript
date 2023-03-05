@@ -1,8 +1,7 @@
 // Rewrite the code changing the for loop to while 
 
-// for(let i = 0; i<3 ; i++){
-//     console.log(`number ${i}!`);
-// }
+
+
 
 let i = 0
 while(i<3){
