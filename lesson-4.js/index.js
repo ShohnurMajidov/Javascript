@@ -75,3 +75,32 @@ if (n < 1) {
 
 //==============================
 
+function checkNum (nameOlim){
+  return nameOlim % 2 === 0 ? console.log("Juft") : console.log("Toq");
+}
+
+checkNum(parseInt())
+
+// ==============================
+
+
+function checkNum (first,second ){
+  return first < second ? console.log(first) : console.log(second);
+}
+
+checkNum(2,4)
+
+
+
+function checkNum (first){
+  return first < second ? console.log(first) : console.log(second);
+}
+
+checkNum(2,4)
+
+
+
+
+// ==========================================================================
+
+
