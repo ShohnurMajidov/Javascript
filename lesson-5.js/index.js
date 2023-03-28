@@ -32,7 +32,7 @@ let obj1 ={
 for(let i in obj1){
   if(typeof obj1[i] == 'number')
   
-  console.log(i);
+  console.log(`${i}:${obj1[i]}`);
 
 }
 //===============================

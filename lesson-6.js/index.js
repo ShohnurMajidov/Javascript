@@ -15,7 +15,6 @@ console.log(`Number of 0's: ${zeroCount}`);   // Output: Number of 0's: 1
 console.log(`Number of 1's: ${oneCount}`);   // Output: Number of 1's: 3
 
 
-
 //==================================================
 
 
@@ -34,28 +33,3 @@ function randomFunc(min,max) {
 }
 
 console.log( randomFunc(1,50))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
