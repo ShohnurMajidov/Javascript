@@ -150,7 +150,7 @@ let salaries = {
 //sum() returns the sum of these properties.
 //mul() returns the multiplication product of these properties.
 
-function Calculator() {
+function calculator() {
 
   this.read = function() {
     this.a = 4;
