@@ -182,7 +182,7 @@ console.log(null == 0); // false
 
 // console.log( undefined == null ); => true
 
-// console.log( false == "0" ); => true
+console.log( false == "0" ); // => true
 
 // ====================================================
 
