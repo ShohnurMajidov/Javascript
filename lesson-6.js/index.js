@@ -18,7 +18,7 @@ console.log(`Number of 1's: ${oneCount}`);   // Output: Number of 1's: 3
 //==================================================
 
 
-let a = [2,5,6,32,3,21]
+let a = [2,5,6,32,3,21,30]
 
 let b = Math.max(...a)
 let c = Math.min(...a)
